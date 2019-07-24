@@ -1,0 +1,32 @@
+
+#  命令行参数 --spring.profiles.active=dev
+#  虚拟机参数 -Dspring.profiles.active=dev
+server:
+  port: 8080
+spring:
+  profiles:
+    active: prod
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+server:
+  port: 8083
+spring:
+  profiles: prod
+
+#person:
+#  lastname: zhansan
+#  age: 18
+#  boss: false
+#  birth: 2017/12/12
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - lisi
+#    - zhaoliu
+#  dog:
+#    name: 小狗
+#    age: 12
+##  last-name: zhansan

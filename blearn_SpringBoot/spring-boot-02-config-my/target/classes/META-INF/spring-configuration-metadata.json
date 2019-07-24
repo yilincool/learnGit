@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.learn.springboot.bean.Person",
+      "sourceType": "com.learn.springboot.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.springboot.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.learn.springboot.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.learn.springboot.bean.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.learn.springboot.bean.Dog",
+      "sourceType": "com.learn.springboot.bean.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "description": "配置bean标签，把person组件加入到容器中与@Component作用一样 <bean class=\"Person\">      <property name=\"lastName\" value=\"字面量\/${key}从环境变量、配置文件中获取值\/#{SpEL} Spring表达式\"><\/property> <bean\/>",
+      "sourceType": "com.learn.springboot.bean.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.learn.springboot.bean.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.learn.springboot.bean.Person"
+    }
+  ],
+  "hints": []
+}
