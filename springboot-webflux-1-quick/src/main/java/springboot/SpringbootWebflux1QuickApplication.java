@@ -1,9 +1,11 @@
-package springboot.springbootwebflux1quick;
+package springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.reactive.config.EnableWebFlux;
 
 @SpringBootApplication
+//@EnableWebFlux
 public class SpringbootWebflux1QuickApplication {
 
     public static void main(String[] args) {
